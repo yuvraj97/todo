@@ -43,6 +43,7 @@ def main():
 
 try:
     main()
-except Exception:
+except Exception as e:
     traceback.print_exc()
+    raise e
     st.error("Something went wrong")

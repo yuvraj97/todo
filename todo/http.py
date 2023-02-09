@@ -2,7 +2,7 @@ import requests
 import json
 
 
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://o15bg4.deta.dev"
 
 
 def fetch_todos(access_token):

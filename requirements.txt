@@ -1,5 +1,0 @@
-fastapi
-uvicorn[standard]
-fastapi_jwt_auth
-werkzeug
-pymongo[srv]
